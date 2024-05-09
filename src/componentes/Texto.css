@@ -1,28 +1,30 @@
 .Texto
 {
+    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0px 35px 0px 35px;
+    margin: 0px 20px 10px 20px;
 }
 p
 {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 15px;
 }
 
 h3
 {
     font-size: 18px;
     font-weight: 700;
-    line-height: 10px;
+    line-height: 5px;
 }
-img
+.Texto img
 {
     border-radius:50% ;
     width:92.59px;
     height:86.09px;
     border:5px solid #fff;
-    margin-top: -45px;
+    margin-top: -5px;
 }

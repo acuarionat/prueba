@@ -1,0 +1,30 @@
+.Botones
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.follow
+{
+    background-color: var(--Azul);
+    font-size: 18px;
+    font-weight:700;
+    width: 242px;
+    height: 48px;
+    border-radius: 12px;
+    border-style: none;
+    color: #fff;
+}
+
+.send
+{
+    width:51.12px;
+    height:48.43px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: var(--Celeste);
+}
