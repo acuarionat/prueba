@@ -1,11 +1,10 @@
-import React from 'react';
-import './App.css';
-import Tarjeta from './componentes/Tarjeta';
+import React from 'react'
+import Navigation from './routes/Navigation'
 
-function App() {
+const App = () => {
   return (
-    <Tarjeta/>
+    <Navigation/>
   )
 }
 
-export default App
+export default App;
